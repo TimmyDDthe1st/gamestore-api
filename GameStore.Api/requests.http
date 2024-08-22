@@ -1,0 +1,32 @@
+GET http://localhost:5297/games
+
+###
+GET http://localhost:5297/games/1
+
+###
+POST http://localhost:5297/games
+Content-Type: application/json
+
+{
+
+	"genre": "Cosy Crafty",
+	"price": 5.00,
+	"releaseDate": "2016-02-26"
+}
+
+###
+
+PUT http://localhost:5297/games/6
+Content-Type: application/json
+
+{
+	"id": 1,
+	"name": "Elden Ring: Shadow of the Erdtree",
+	"genre": "RPG",
+	"price": 69.99,
+	"releaseDate": "2022-02-25"
+}
+
+###
+
+DELETE http://localhost:5297/games/1

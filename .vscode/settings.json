@@ -1,0 +1,8 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#5B120B",
+    "titleBar.activeBackground": "#80190F",
+    "titleBar.activeForeground": "#FFFCFC"
+  },
+  "dotnet.defaultSolution": "GameStore.sln"
+}
